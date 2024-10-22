@@ -13,7 +13,7 @@ const Header = () => {
           <div className='hidden md:block'>
             <ul className='flex justify-around items-center gap-2'>
                 <li className='text-xl font-semibold bg-slate-500 text-slate-50 px-4 py-2 cursor-pointer transition-all duration-300 ease-in-out hover:scale-110 hover:bg-green-500 rounded-lg '>Home</li>
-                <li className='text-xl font-semibold bg-slate-500 text-slate-50 px-4 py-2 cursor-pointer transition-all duration-300 ease-in-out hover:scale-110 hover:bg-green-500 rounded-lg '><a>Recipe</a></li>
+                <a href='#recipe'><li className='text-xl font-semibold bg-slate-500 text-slate-50 px-4 py-2 cursor-pointer transition-all duration-300 ease-in-out hover:scale-110 hover:bg-green-500 rounded-lg '>Recipe</li></a>
                 <li className='text-xl font-semibold bg-slate-500 text-slate-50 px-4 py-2 cursor-pointer transition-all duration-300 ease-in-out hover:scale-110 hover:bg-green-500 rounded-lg '>About</li>
                 <li className='text-xl font-semibold bg-slate-500 text-slate-50 px-4 py-2 cursor-pointer transition-all duration-300 ease-in-out hover:scale-110 hover:bg-green-500 rounded-lg '><a>Search</a></li>
                  

@@ -3,9 +3,9 @@ import React from 'react'
 const Hero = () => {
   return (
     <div> 
-      <div class="max-w-screen-xl mx-auto relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+      <div class="max-w-screen-xl md:h-[600px] rounded-3xl mx-auto relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
   <div class="absolute inset-0">
-    <img src="https://images.unsplash.com/photo-1694444398997-f8de6de50223?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background Image" class="object-cover object-center w-full h-full" />
+    <img src="https://images.unsplash.com/photo-1694444398997-f8de6de50223?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background Image" class="object-cover object-center w-full h-full " />
     <div class="absolute inset-0 bg-black opacity-50"></div>
   </div>
   
